@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.converter-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  min-height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+  display: block;  /* Changed from none to block */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Add this to style success/error states */
+#result.success {
+  background-color: #e8f5e9;
+  border-color: #4CAF50;
+}
+
+#result.error {
+  background-color: #ffebee;
+  border-color: #f44336;
+}

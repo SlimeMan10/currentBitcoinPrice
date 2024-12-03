@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="converter-form">
+        <h2>Bitcoin price in real time</h2>
+        <div class="form-group">
+            <label for="fromCurrency">Check Price  What Currency:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+        </div>
+        <button id="convert">Result</button>
+        <div id="result" class="result-box"></div>
+    </div>
+    <footer id="disclaimer"></footer>
+</body>
+</html>
